@@ -1,0 +1,15 @@
+{
+  "name": "gnss-blue-dot-course",
+  "private": true,
+  "scripts": {
+    "check": "node scripts/lint.mjs && node scripts/review.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test:browser": "node scripts/browser-check.mjs"
+  },
+  "dependencies": {
+    "katex": "0.19.1",
+    "markdown-it": "15.0.3",
+    "markdown-it-texmath": "1.0.0"
+  }
+}
